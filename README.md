@@ -75,6 +75,11 @@ streamlit run app.py
 http://localhost:8501
 ```
 
+### Deployment Note
+This app requires Python 3.10 due to current Hugging Face Transformers compatibility.
+Streamlit Cloud is configured using `runtime.txt` to ensure a stable runtime environment.
+
+
 ## ⚠️ Challenges Faced & Fixes
 
 - Initially used a **base transformer model**, which produced incorrect sentiment predictions  
